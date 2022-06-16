@@ -1,4 +1,3 @@
-import React from "react";
 import Profile1 from "../assets/profile-1.jpg";
 import Profile2 from "../assets/profile-2.jpg";
 import Profile3 from "../assets/profile-3.jpg";
@@ -12,7 +11,7 @@ const Testimonials = () => {
         <img
           className="w-8 lg:w-max absolute top-0 left-2 lg:-left-2"
           src={Quotes}
-          alt=""
+          alt="quotes"
         />
         <div className="bg-testimonial-bg w-96 h-56 flex flex-col justify-center p-8 text-sm rounded-md z-10">
           <p className="mb-4 leading-loose">

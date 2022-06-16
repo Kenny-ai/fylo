@@ -1,18 +1,15 @@
-import React from 'react';
-import {ReactComponent as AccessAnywhere} from '../assets/icon-access-anywhere.svg'
+import { ReactComponent as AccessAnywhere } from "../assets/icon-access-anywhere.svg";
 import { ReactComponent as Security } from "../assets/icon-security.svg";
 import { ReactComponent as Collaboration } from "../assets/icon-security.svg";
 import { ReactComponent as AnyFile } from "../assets/icon-any-file.svg";
 
-
 const PageTwo = () => {
   return (
-    <div className="bg-main-bg flex justify-center items-center pt-24">
+    <div className="bg-main-bg flex justify-center items-center pt-24 lg:pt-0">
       <div className="flex flex-col justify-center items-center py-12 gap-24 lg:flex-row lg:flex-wrap w-5/6 xl:w-3/4">
         <div className="text-center flex flex-col items-center lg:w-1/3">
           <AccessAnywhere className="mb-6" />
           <h3 className="text-xl font-raleway font-bold mb-4">
-            {" "}
             Access your files, anywhere
           </h3>
           <p className="text-base">
@@ -24,7 +21,6 @@ const PageTwo = () => {
         <div className="text-center flex flex-col items-center lg:w-1/3">
           <Security className="mb-6" />
           <h3 className="text-xl font-raleway font-bold mb-4">
-            {" "}
             Security you can trust
           </h3>
           <p className="text-base">
@@ -36,7 +32,6 @@ const PageTwo = () => {
         <div className="text-center flex flex-col items-center lg:w-1/3 ">
           <Collaboration className="mb-6" />
           <h3 className="text-xl font-raleway font-bold mb-4">
-            {" "}
             Real-time collaboration
           </h3>
           <p className="text-base">
@@ -48,7 +43,6 @@ const PageTwo = () => {
         <div className="text-center flex flex-col items-center lg:w-1/3">
           <AnyFile className="mb-6" />
           <h3 className="text-xl font-raleway font-bold mb-4">
-            {" "}
             Store any type of file
           </h3>
           <p className="text-base">
@@ -60,6 +54,6 @@ const PageTwo = () => {
       </div>
     </div>
   );
-}
+};
 
-export default PageTwo
+export default PageTwo;

@@ -3,7 +3,6 @@ import React from "react";
 const Form = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("clicked");
   };
 
   return (
@@ -15,7 +14,6 @@ const Form = () => {
         Get early access today
       </h3>
       <p className="mb-6 text-14 text-gray-200">
-        {" "}
         It only takes a minute to sign up and our free starter tier is extremely
         generous. If you have any questions, our support team would be happy to
         help you.

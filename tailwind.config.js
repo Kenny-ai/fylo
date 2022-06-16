@@ -12,12 +12,10 @@ module.exports = {
       fontSize: {
         '14': '14px',
       },
-
       width: {
         '100': '55rem',
         '84': '22rem'
       },
-
       lineHeight: {
         'high': '1.6',
       },
@@ -25,8 +23,11 @@ module.exports = {
         'hover-button': 'hsl(176, 68%, 64%)',
         'button': '#46B5D3',
         'main-bg': 'hsl(218, 28%, 13%)',
+        'header-bg': 'hsl(217, 28%, 15%)',
         'testimonial-bg': 'hsl(219, 30%, 18%)',
-        'footer-bg': 'hsl(216, 53%, 9%)'
+        'footer-bg': 'hsl(216, 53%, 9%)',
+        'twitter-bg': '#1da1f2',
+        'facebook-bg': '#4267B2'
       },
       textColor: {
         'button': 'hsl(176, 68%, 64%)'
@@ -36,60 +37,37 @@ module.exports = {
       },
       boxShadow: {
         '3xl': '10px 8px 20px 2px rgba(0,0,0,0.66);'
+      },
+      outlineColor: {
+        'twitter': '#1da1f2',
+        'facebook': '#4267B2',
+        'instagram': '#a02d76'
+      },
+      transitionProperty: {
+        'outline': 'outline-offset, outline-color, background-color',
+        'bg-size': 'background-size',
+      },
+      keyframes: {
+        shake: {
+          '10%': { transform: 'rotate(10deg)' },
+          '20%': { transform: 'rotate(-10deg)' },
+          '30%': { transform: 'rotate(10deg)' },
+          '40%': { transform: 'rotate(-10deg)' },
+        }
+      },
+      animation: {
+        shake: 'shake 1s'
+      },
+      backgroundImage: {
+        'ig-gradient':
+          "linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)",
+        'text-gradient': 'linear-gradient(#46B5D3, #46B5D3)'
+      },
+      backgroundSize: {
+        '0': '0% 2px',
+        '3': '100% 2px'
       }
     },
   },
   plugins: [],
 }
-
-
-// module.exports = {
-//   content: ['./src/**/*.{js,jsx,ts,tsx}'],
-//   darkMode: 'class',
-//   theme: {
-//     fontFamily: {
-//       display: ['Open Sans', 'sans-serif'],
-//       body: ['Open Sans', 'sans-serif'],
-//     },
-//     extend: {
-//       fontSize: {
-//         14: '14px',
-//       },
-//       backgroundColor: {
-//         // 'main-bg': '#FAFBFB',
-//         // 'main-bg': '#E5E7EB',
-//         'main-bg': '#f3f4f6',
-//         'main-dark-bg': '#20232A',
-//         'secondary-dark-bg': '#33373E',
-//         'light-gray': '#F7F7F7',
-//         'half-transparent': 'rgba(0, 0, 0, 0.5)',
-//       },
-//       borderWidth: {
-//         1: '1px',
-//       },
-//       borderColor: {
-//         color: 'rgba(0, 0, 0, 0.1)',
-//       },
-//       width: {
-//         400: '400px',
-//         760: '760px',
-//         780: '780px',
-//         800: '800px',
-//         1000: '1000px',
-//         1200: '1200px',
-//         1400: '1400px',
-//       },
-//       height: {
-//         80: '80px',
-//       },
-//       minHeight: {
-//         590: '590px',
-//       },
-//       backgroundImage: {
-//         'hero-pattern':
-//           "url('https://demos.wrappixel.com/premium-admin-templates/react/flexy-react/main/static/media/welcome-bg-2x-svg.25338f53.svg')",
-//       },
-//     },
-//   },
-//   plugins: [],
-// };

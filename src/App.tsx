@@ -1,7 +1,5 @@
-import React from "react";
 import "./App.css";
 import Footer from "./components/Footer";
-import Form from "./components/Form";
 import HeaderContainer from "./components/Header/HeaderContainer";
 import PageThree from "./components/PageThree";
 import PageTwo from "./components/PageTwo";
@@ -14,7 +12,6 @@ function App() {
       <PageTwo />
       <PageThree />
       <Testimonials />
-      {/* <Form /> */}
       <Footer />
     </div>
   );
