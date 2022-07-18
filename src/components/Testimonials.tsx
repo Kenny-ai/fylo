@@ -13,7 +13,7 @@ const Testimonials = () => {
           src={Quotes}
           alt="quotes"
         />
-        <div className="bg-testimonial-bg w-96 h-56 flex flex-col justify-center p-8 text-sm rounded-md z-10">
+        <div className="bg-testimonial-bg w-84 h-56 flex flex-col justify-center p-8 text-sm rounded-md z-10">
           <p className="mb-4 leading-loose">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -29,7 +29,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="bg-testimonial-bg w-96 h-56 flex flex-col justify-center p-8 text-sm rounded-lg">
+        <div className="bg-testimonial-bg w-84 h-56 flex flex-col justify-center p-8 text-sm rounded-lg">
           <p className="mb-4 leading-loose">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -45,7 +45,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="bg-testimonial-bg w-96 h-56 flex flex-col justify-center p-8 text-sm rounded-lg">
+        <div className="bg-testimonial-bg w-84 h-56 flex flex-col justify-center p-8 text-sm rounded-lg">
           <p className="mb-4 leading-loose">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
